@@ -1,0 +1,31 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Maratona de Programação: Desafio de Código",
+    "details": "Uma competição de programação para estudantes de todos os níveis. Os participantes trabalharão em equipe para resolver problemas de programação de diferentes graus de dificuldade. A equipe que resolver o maior número de problemas no menor tempo será a vencedora.
+",
+    "maximumAttendees": 250
+}
+
+###
+
+POST http://localhost:3333/events/08dad4c1-12bc-49d0-a20d-d0280f46ca4f/attendees
+Content-Type: application/json
+
+{
+    "name": "Felipe Cavalcanti",
+    "email": "felipe1@nubank.com.br"
+}
+
+### 
+
+GET http://localhost:3333/events/08dad4c1-12bc-49d0-a20d-d0280f46ca4f
+
+### 
+
+GET http://localhost:3333/attendees/2/check-in
+
+###
+
+GET http://localhost:3333/events/08dad4c1-12bc-49d0-a20d-d0280f46ca4f/attendees?query=felipe
