@@ -5,11 +5,11 @@ import { prisma } from "../lib/prisma";
 import { BadRequest } from "./_errors/bad-request";
 
 export async function checkIn(app: FastifyInstance) {
-  app.withTypeProvider<ZodTypeProvider>().get(
+  app.withTypeProvider<ZodTypeProvider>().post(
     "/attendees/:attendeeId/check-in",
     {
       schema: {
-        summary: "Check-ins an attendee",
+        summary: "Check-in an attendee",
         tags: ["check-ins"],
         params: z.object({
           attendeeId: z.coerce.number().int(),

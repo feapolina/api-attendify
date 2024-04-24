@@ -29,7 +29,7 @@ app.register(fastifySwagger, {
     info: {
       title: "Attendify",
       description:
-        "Especificações da api para o backend da aplicação attendify",
+        "Especificações da API para o Backend da aplicação Attendify",
       version: "1.0.0",
     },
   },
