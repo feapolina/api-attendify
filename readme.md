@@ -17,7 +17,7 @@
 
 # Descrição
 
-A aplicação tem como intuito servir como uma maneira de gerencionar participantes e eventos presenciais, podendo cadastrar um evento, cadastrar um participante, e também permitir que o participante realize check-in.
+A aplicação tem como intuito servir como uma maneira de gerenciar participantes e eventos presenciais, podendo cadastrar um evento, cadastrar um participante, e também permitir que o participante realize check-in.
 
 # Rotas da API
 
