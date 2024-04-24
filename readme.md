@@ -113,7 +113,7 @@ Ferramentas **necessárias** para executar a API localmente:
 #### 1.1.1 Clone este repositório _localmente_ em sua máquina
 
 ```
-git clone https://github.com/feapolina/attendify-api.git
+git clone https://github.com/feapolina/api-attendify.git
 ```
 
 ### 1.1.2 Entre na pasta do projeto
