@@ -23,7 +23,7 @@ A aplicação tem como intuito servir como uma maneira de gerencionar participan
 
 > ### As rotas são acessadas através do https://localhost:3333/nome-da-rota
 
-![Imagem das rotas da aplicação](./especificacoes-api-swagger.png)
+![Imagem das rotas da aplicação](./especificacoes_swagger.png)
 
 Você pode ver detalhes de todas as rotas, bem como modelos de corpo das requisições, acessando o Swagger UI.
 
