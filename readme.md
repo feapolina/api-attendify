@@ -119,7 +119,7 @@ git clone https://github.com/feapolina/api-attendify.git
 ### 1.1.2 Entre na pasta do projeto
 
 ```
-cd api-server/
+cd api-attendify/
 ```
 
 #### 1.1.3 Execute o seguinte comando para instalar as dependências do projeto:
